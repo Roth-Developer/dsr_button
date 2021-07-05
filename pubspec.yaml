@@ -2,7 +2,7 @@ name: dsr_button
 description: test create my own button .
 version: 0.0.1
 author: Doung SereyRoth<doungsereyrath@gmail.com>
-homepage:
+homepage: https://github.com/Roth-Developer/dsr_button
 
 environment:
   sdk: ">=2.12.0 <3.0.0"

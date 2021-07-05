@@ -1,7 +1,22 @@
 library dsr_button;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
+import 'package:flutter/material.dart';
+
+class DsrButton extends StatelessWidget {
+  final String text;
+  const DsrButton({
+    Key? key,
+    required this.text,
+  }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return TextButton(
+      style: ButtonStyle(
+        backgroundColor: MaterialStateProperty.all(Colors.red),
+      ),
+      onPressed: () {},
+      child: Text(text),
+    );
+  }
 }
